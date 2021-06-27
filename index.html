@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="./index.js"></script>
+<style>
+    body {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-family: '楷体';
+    }
+
+    span {
+        margin-left: 20px;
+    }
+
+    span:hover {
+        cursor: pointer;
+    }
+
+    option {
+        font-family: '楷体';
+    }
+</style>
+
+<body>
+    <span>日辰：</span>
+    <select id="a">
+        <option value="a">甲</option>
+        <option value="b">乙</option>
+        <option value="c">丙</option>
+        <option value="d">丁</option>
+        <option value="e">戊</option>
+        <option value="f">己</option>
+        <option value="g">庚</option>
+        <option value="h">辛</option>
+        <option value="i">壬</option>
+        <option value="j">癸</option>
+    </select>
+    <select id="b">
+        <option value="a">子</option>
+        <option value="b">丑</option>
+        <option value="c">寅</option>
+        <option value="d">卯</option>
+        <option value="e">辰</option>
+        <option value="f">巳</option>
+        <option value="g">午</option>
+        <option value="h">未</option>
+        <option value="i">申</option>
+        <option value="j">酉</option>
+        <option value="k">戌</option>
+        <option value="l">亥</option>
+    </select>
+    <span>时辰：</span>
+    <select id="t2">
+        <option value="a">子</option>
+        <option value="b">丑</option>
+        <option value="c">寅</option>
+        <option value="d">卯</option>
+        <option value="e">辰</option>
+        <option value="f">巳</option>
+        <option value="g">午</option>
+        <option value="h">未</option>
+        <option value="i">申</option>
+        <option value="j">酉</option>
+        <option value="k">戌</option>
+        <option value="l">亥</option>
+    </select>
+    <span>月将：</span>
+    <select id="t3">
+        <option value="a">子</option>
+        <option value="b">丑</option>
+        <option value="c">寅</option>
+        <option value="d">卯</option>
+        <option value="e">辰</option>
+        <option value="f">巳</option>
+        <option value="g">午</option>
+        <option value="h">未</option>
+        <option value="i">申</option>
+        <option value="j">酉</option>
+        <option value="k">戌</option>
+        <option value="l">亥</option>
+    </select>
+    <span onclick="goTo()" style="font-weight: bold;">排盘</span>
+</body>
+
+</html>

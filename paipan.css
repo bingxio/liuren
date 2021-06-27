@@ -1,0 +1,14 @@
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: '楷体';
+    /* background-color: black; */
+    /* color: white; */
+}
+
+td {
+    width: 30px;
+    height: 30px;
+}
